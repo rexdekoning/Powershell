@@ -26,11 +26,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="PowerShellRex.psd1" />
-    <Compile Include="PowerShellRex.psm1" />
-    <Compile Include="PowerShellRex.tests.ps1" />
+    <Compile Include="test.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
